@@ -1,0 +1,12 @@
+HTML Syntax: <tag [ngClass]="{'key': value}"></tag>
+ngClass's object is the following format: className: condition
+ngClass is used to apply a CSS class to a HTML tag
+Conditionals can be used also
+Anything in value of the key value pair will be resolved
+No * because it does not alter the DOM
+
+Applying a CSS class if a certain condition is met can be done using the following syntax
+<tag [ngClass]="{'cssClassName': arrIndex >= 4 ? true : false}"></tag>
+For the above example you will need to bind the arrIndex in your *ngFor but this is only an example
+You could use any condition really
+

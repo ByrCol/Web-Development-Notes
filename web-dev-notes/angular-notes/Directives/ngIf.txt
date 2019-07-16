@@ -1,0 +1,9 @@
+HTML Syntax: <tag *ngIf="property"></tag>
+* is required on directives that alter the DOM
+property can be anything in your component that returns a boolean, string, function() etc. 
+
+HTML Syntax: 
+<tag *ngIf="property; else templateName"></tag>
+<ng-template #templateName>
+    <tag></tag>
+</ng-template>

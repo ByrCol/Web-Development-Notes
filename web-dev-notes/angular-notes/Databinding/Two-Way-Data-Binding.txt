@@ -1,0 +1,8 @@
+HTML Syntax:<tag [(ngModel)]="property">
+property is anything defined in your relevant component
+ngModel is part of @angular/forms and this needs to be part of the imports[] in your AppModule
+import { FormsModule } from "@angular/forms";
+
+ngModel is an angular directive
+Two-Way-Data-Binding is a combination of event binding and property binding
+

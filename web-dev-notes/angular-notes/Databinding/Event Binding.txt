@@ -1,0 +1,8 @@
+HTML Syntax: <tag (event)="code/function"></tag>
+Event binding is used on an event such as a mouse click
+Functions would typically be called on an Event Binding event
+All DOM events that have "on" before it is supported
+You just drop the "on" from the event
+
+You can pass events from a child component to any parent component that uses its html selector
+For example on click of a button we want to emit an event up to our parent

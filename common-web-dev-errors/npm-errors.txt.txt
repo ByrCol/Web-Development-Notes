@@ -1,0 +1,2 @@
+Issue: ERROR in ../node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: ';' expected.
+Fix: Issue comes from incompatible version of rxjs, usually anything over 6.0.0. Remove ^ from rxjs in package.json and make sure it is <=6.0.0

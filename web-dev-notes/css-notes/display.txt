@@ -1,0 +1,15 @@
+Every element has a default display property
+Most elements default is block or inline
+
+block
+div, p, form, header, footer, section are all block-level elements by default
+All block-level elements start on a new line and stretch out to the left and right as far as it can
+
+inline
+a, span are a inline elements by default
+Inline elements dont disrupt the flow of a p element for example so you could do this <p>Some<span>Text</span></p>
+
+none
+Commonly used by javascript to show/hide HTML elements
+Makes the browser render the page as if it does not exist which makes it different to setting visibility: hidden for example
+visibility: hidden will also still take up space on the page but display: none will not take up any space on the page

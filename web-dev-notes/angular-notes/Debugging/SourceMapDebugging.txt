@@ -1,0 +1,4 @@
+You can access your applications files in the webpack folder
+From here you can then open any of your scripts and add in breakpoints as you would normally
+If you do not have webpack you can go through the bundled .js files and CTRL-F for the code you are looking for
+When the application hits your breakpoint it will behave as youd expect and pause the application until you step over etc. 

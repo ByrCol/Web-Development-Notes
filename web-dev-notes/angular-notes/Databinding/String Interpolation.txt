@@ -1,0 +1,4 @@
+HTML Syntax: {{ anything_that_resolves_to_a_string }}
+Can use any property that is defined in your component class
+Can also use typescript code that resolves to a string
+You would use string interpolation over property binding if you just want to output some text to your HTML

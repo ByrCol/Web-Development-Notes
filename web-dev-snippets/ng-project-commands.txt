@@ -1,0 +1,17 @@
+*** Create ng project without testing, in a directory ***
+ng n <project_name> --minimal=true --skipTests=true --style=css --routing=false
+
+*** Serve your application ***
+ng serve
+
+*** Add Angular Material ***
+npm install --save @angular/material @angular/cdk @angular/animations
+src\app\app.module.ts:
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+@NgModule({
+  ...
+  imports: [BrowserAnimationsModule],
+  ...
+})
+src\styles.css:
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";

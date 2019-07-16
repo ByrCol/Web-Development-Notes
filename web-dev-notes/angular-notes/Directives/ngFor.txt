@@ -1,0 +1,7 @@
+HTML Syntax: <tag *ngFor="let element of array"></tag>
+The tag that ngFor is attached to will be duplicated as many times as the ngFor iterates
+
+You can also bind the index of your for loop to a variable with the below syntax
+HTML Syntax: <tag *ngFor="let element of array; let i = index"></tag>
+index is a reserved keyword which references the array index you are currently iterating over
+i is just a random property name and i is what stores your index value so you can reference it through i

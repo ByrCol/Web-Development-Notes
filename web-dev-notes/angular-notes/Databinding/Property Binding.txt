@@ -1,0 +1,12 @@
+HTML Syntax: <tag [property]="attribute"></tag>
+You can bind any attribute defined in your component class 
+You would use property binding over string interpolation if you want to dynamically update a value
+
+All properties of components are only visible to itself by default
+You can expose properties of a component to any component that uses its html selector by using the @Input decorator
+You need to import Input from @angular/core also
+TypeScript Syntax: @Input() someProperty: string = "hello";
+
+You can also map an alias to a property that you are exposing to parent components
+You do so by inputting a name into '' in your @Input('') decorator
+TypeScript Syntax: @Input('someAlias') someProperty: string = "hello";

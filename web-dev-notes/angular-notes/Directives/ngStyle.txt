@@ -1,0 +1,3 @@
+HTML Syntax: <tag [ngStyle]="{'key': value}"></tag>
+No * because this does not alter the DOM
+ngStyle expects an object as its property, or key value pairs whichever way you wanna say it

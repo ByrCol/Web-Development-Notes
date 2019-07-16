@@ -1,0 +1,5 @@
+*** Fonts ***
+Google Fonts: https://fonts.google.com/
+
+*** Icons ***
+Font Awesome CDN: <script src="https://kit.fontawesome.com/108f33c7b2.js"></script>
