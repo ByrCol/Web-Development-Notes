@@ -1,0 +1,9 @@
+Setting Up A New Repo With Existing Code
+Create new repo in GitHub
+cd to the existing repo on your machine
+echo "# <repo_name>" >> README.md
+git init
+git add README.md
+git commit -m "Some initial commit message"
+git remote add origin https://github.com/ByrCol/<repo_name>.git
+git push -u origin master
