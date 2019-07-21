@@ -1,0 +1,92 @@
+Sizing Font Awesome Icons
+Icons inherit the font-size of their parent container which allow them to match any text you might use with them. 
+With the following classes, we can increase or decrease the size of icons relative to that inherited font-size.
+<i class="fas fa-camera fa-xs"></i>
+<i class="fas fa-camera fa-sm"></i>
+<i class="fas fa-camera fa-lg"></i>
+<i class="fas fa-camera fa-2x"></i>
+<i class="fas fa-camera fa-3x"></i>
+<i class="fas fa-camera fa-5x"></i>
+<i class="fas fa-camera fa-7x"></i>
+<i class="fas fa-camera fa-10x"></i>
+
+Styling Font Awesome Icons
+Font Awesome icons automatically inherit CSS size and color. 
+This means they blend in with text inline wherever you put them.
+Font Awesome tries not to be too opinionated, and sets just the basic styling rules icons need to render properly in context.
+<span style="font-size: 3em; color: Tomato;">
+  <i class="fas fa-camera"></i>
+</span>
+
+Using Font Awesome Icons In Lists
+You can use Font Awesome Icons as replacements for the standarad ul and li bullets
+<ul class="fa-ul">
+  <li><span class="fa-li"><i class="fas fa-check-square"></i></span>List icons can</li>
+  <li><span class="fa-li"><i class="fas fa-check-square"></i></span>be used to</li>
+  <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>replace bullets</li>
+  <li><span class="fa-li"><i class="far fa-square"></i></span>in lists</li>
+</ul>
+
+Rotating Font Awesome Icons
+You can rotate Font Awesome Icons using fa-rotate or fa-flip
+<div class="fa-4x">
+  <i class="fas fa-snowman"></i>
+  <i class="fas fa-snowman fa-rotate-90"></i>
+  <i class="fas fa-snowman fa-rotate-180"></i>
+  <i class="fas fa-snowman fa-rotate-270"></i>
+  <i class="fas fa-snowman fa-flip-horizontal"></i>
+  <i class="fas fa-snowman fa-flip-vertical"></i>
+  <i class="fas fa-snowman fa-flip-both"></i>
+</div>
+
+Animating Font Awesome Icons
+Font Awesome Icons have some built in rotation and pulsing functionality
+Use the fa-spin class to get any icon to rotate, and use fa-pulse to have it rotate with 8 steps. 
+Works especially well with fa-spinner & everything in the spinner icons category.
+Spinner Icons Category: https://fontawesome.com/icons?c=spinners
+<div class="fa-3x">
+  <i class="fas fa-spinner fa-spin"></i>
+  <i class="fas fa-circle-notch fa-spin"></i>
+  <i class="fas fa-sync fa-spin"></i>
+  <i class="fas fa-cog fa-spin"></i>
+  <i class="fas fa-spinner fa-pulse"></i>
+  <i class="fas fa-stroopwafel fa-spin"></i>
+</div>
+
+Adding Borders To Font Awesome Icons
+fa-border can be used to provide a border to icons
+<i class="fas fa-arrow-right fa-2x fa-border"></i>
+
+Pulling Icons
+Pulling icons is similar to using CSS to change the position of icons
+It allows you to create cool effects such as creating a large " on the left side of a quote
+Another typical effect would be having an arrow at the right hand side of a block of text
+fa-pull-left & fa-pull-right is the syntax for this
+<i class="fas fa-quote-left fa-2x fa-pull-left"></i>
+Gatsby believed in the green light
+
+Stacking Icons
+To stack multiple icons, use the fa-stack class on the parent HTML element of the 2 icons you want to stack. 
+Then add the fa-stack-1x class for the regularly sized icon and add the fa-stack-2x class for the larger icon. 
+fa-inverse can be added to the icon with the fa-stack-1x to help with a knock-out looking effect. 
+You can even throw larger icon classes on the parent to get further control of sizing.
+<span class="fa-stack fa-2x">
+  <i class="fas fa-square fa-stack-2x"></i>
+  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+</span>
+<span class="fa-stack fa-2x">
+  <i class="fas fa-circle fa-stack-2x"></i>
+  <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
+</span>
+<span class="fa-stack fa-2x">
+  <i class="fas fa-square fa-stack-2x"></i>
+  <i class="fas fa-terminal fa-stack-1x fa-inverse"></i>
+</span>
+<span class="fa-stack fa-4x">
+  <i class="fas fa-square fa-stack-2x"></i>
+  <i class="fas fa-terminal fa-stack-1x fa-inverse"></i>
+</span>
+<span class="fa-stack fa-2x">
+  <i class="fas fa-camera fa-stack-1x"></i>
+  <i class="fas fa-ban fa-stack-2x" style="color:Tomato"></i>
+</span>
