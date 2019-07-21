@@ -1,0 +1,14 @@
+.someImageClass1, .someImageClass2 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+.someImageClass1OverlayText {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}

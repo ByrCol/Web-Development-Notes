@@ -1,0 +1,8 @@
+background-repeat can be used to either repeat an image multiple times or only once
+If the background image is smaller than its containing element than it will by default repeat
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: repeat;
+background-repeat: space;
+background-repeat: round;
+background-repeat: no-repeat;

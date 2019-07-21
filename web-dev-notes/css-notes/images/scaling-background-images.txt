@@ -1,0 +1,17 @@
+background-size is a property that allows you to adjust the width and height of a background image(s)
+The default behaviour of background images is to tile once they have rendered their size
+background-size overrides the default behaviour
+You can scale an image up or down, it does not always have to be scaled up in size
+
+Tiling A Background Image
+If you had a large image that you wanted to tile 4 times in a 2x2 square
+You can set the background-size property in the same class that your background-image is declared in
+This squeezes down the containing areas size allowing 4 tiled images
+
+Containing A Background Image Within A Container
+background-size has a special value contain
+contain makes an image stay within the bounds of its container no matter how much bigger the image is
+
+Convering A Container With A Background Image
+background-size has a special value cover
+The cover value ensures that the image will be sized so that it is as small as possible while ensuring that both dimensions are greater than or equal to the size of the container that it is in

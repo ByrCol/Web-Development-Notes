@@ -13,3 +13,5 @@ none
 Commonly used by javascript to show/hide HTML elements
 Makes the browser render the page as if it does not exist which makes it different to setting visibility: hidden for example
 visibility: hidden will also still take up space on the page but display: none will not take up any space on the page
+
+

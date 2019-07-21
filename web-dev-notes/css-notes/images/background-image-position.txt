@@ -1,0 +1,6 @@
+background-position is used to set the initial position of each background image
+background-position: top;
+background-position: bottom;
+background-position: left;
+background-position: right;
+background-position: center;

@@ -1,0 +1,3 @@
+You would make use of the section tag to group chunks of a web page
+You could have a section for Intro, News Items, Contact Me etc. 
+Sections do not take styles usually and should not replace divs

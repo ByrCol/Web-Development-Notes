@@ -1,0 +1,6 @@
+By default, the content you want to be on top of your background-image will probably be in its own block with the background-image below or above it
+To fix this you need to set the contents position to absolute which will take away its own block and have it sitting on top of the background image
+
+The content that you want to be on top of the background-image needs a z-index increment
+z-index: 1;
+

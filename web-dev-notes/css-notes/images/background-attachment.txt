@@ -1,0 +1,16 @@
+background-attachment sets wheter a background-images position is fixed within the viewport or scrolls with its containing block
+/* Keyword values */
+background-attachment: scroll;
+background is fixed relative to the element itself and does not scroll with its contents
+scroll works the opposite to what you would think
+It "scrolls" with your scroll, it moves with the page
+scroll is the normal effect essentially
+
+background-attachment: fixed;
+background is fixed to the viewport
+background does not move with the element 
+fixed is used for parallax effects
+
+background-attachment: local;
+background is fixed relative to the elements contents
+background scrolls with the elements contents
