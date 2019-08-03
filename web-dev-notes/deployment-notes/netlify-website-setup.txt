@@ -1,0 +1,24 @@
+Purchase any domain you want
+Do not bother with SSL as Netlify provides it for free
+On Netlify.com go to your sites page
+New site from Git
+Choose your repo
+Choose your branch, usually master
+ng build --prod for angular projects
+dist/<project_name> for the directory
+
+Go back to namecheap
+Select domain and manage
+Advanced DNS
+Remove existing useless records
+Add New Record
+Add "A" Record
+"@" for host
+104.198.14.52 for IP
+Save
+Add New Record
+Add "CName" Record
+"www" for host
+<mad_netlify_url>.com for Target
+e.g zealous-kepler-b13c1e.netlify.com
+Save

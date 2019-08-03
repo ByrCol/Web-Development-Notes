@@ -15,3 +15,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 })
 src\styles.css:
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+*** Building production project ***
+ng build --prod --progress
